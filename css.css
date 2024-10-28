@@ -1,6 +1,28 @@
+@font-face{
+    font-family: 'lato';
+    src: url(/fuentes/latoregular.ttf);
+
+ }
 #logo{
     width: 8%;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: 
+    #1e5d3f; 
+    padding: 10px 0;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -8,4 +30,38 @@
     max-width: 1200px;
     margin: auto;
     padding: 0 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'lato';
+}
+
+.logo img {
+    height: 40px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons a {
+    margin: 0 10px;
+}
+
+.icons img {
+    height: 24px;
+    width: 24px;
 }
